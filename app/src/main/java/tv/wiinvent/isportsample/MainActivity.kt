@@ -17,8 +17,6 @@ class MainActivity: AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-
-
         val isportData = ISportData.Builder()
             .token("")
             .matchId("11886291")
@@ -29,21 +27,29 @@ class MainActivity: AppCompatActivity() {
         val iSportManager = ISportManager(this, R.id.isport_view, isportData)
 
         iSportManager.addISportListener(object: ISportEventListener{
-            override fun onUserLogin() {
-                TODO("Not yet implemented")
-            }
-
-            override fun onUserPurchase() {
-                TODO("Not yet implemented")
-            }
-
             override fun onLoadError() {
-                TODO("Not yet implemented")
             }
 
             override fun onTimeout() {
-                TODO("Not yet implemented")
+
             }
+
+            override fun onUserExchangeLoyalty(point: Long) {
+
+            }
+
+            override fun onUserLogin() {
+
+            }
+
+            override fun onUserPurchase(packageId: String) {
+
+            }
+
+            override fun onUserStartLiveDetail(channelId: String) {
+
+            }
+
         } )
 
     }

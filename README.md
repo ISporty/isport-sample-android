@@ -18,7 +18,7 @@ allprojects {
 2. Add wiinventtv-sdk-android module dependency
 
 ```gradle
-implementation 'tv.wiinvent:wiinvent-sdk-android:X.X.X'
+implementation 'com.isport:isport-sdk-android:X.X.X'
 
 ```
 

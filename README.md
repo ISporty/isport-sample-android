@@ -25,6 +25,6 @@ implementation 'com.isport:isport-sdk-android:X.X.X'
 where X.X.X is your preferred version.
 
 ```
-Latest released version to Maven is 1.1.2
+Latest released version to Maven is 1.1.3
 ```
 

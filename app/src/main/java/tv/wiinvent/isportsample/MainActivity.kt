@@ -18,7 +18,7 @@ class MainActivity: AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val isportData = ISportData.Builder()
-            .token("")
+            .token("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTY3ODMyOTAyMzcsImp0aSI6ImIwZmI0MTY4LTM4YmMtNDgxZC1hZDQ2LTdkYjU1ZTYzODUzNSIsInN1YiI6Ijk3MDAxNzAifQ.jrCpLf1-OIhH8f7bWaYlH7pf9bASgoRET4gORzVjdEE")
             .matchId("11886291")
             .type(ISportData.ViewType.DETAIL)
             .env(ISportData.Environment.DEV)

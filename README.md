@@ -11,7 +11,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "https://maven.fptscore.com/repository/maven-releases/" }
+        maven { url "https://maven.wiinvent.tv/repository/maven-releases/" }
     }
 }
 ```
@@ -25,6 +25,6 @@ implementation 'com.isport:isport-sdk-android:X.X.X'
 where X.X.X is your preferred version.
 
 ```
-Latest released version to Maven is 1.1.3
+Latest released version to Maven is 1.2.2
 ```
 

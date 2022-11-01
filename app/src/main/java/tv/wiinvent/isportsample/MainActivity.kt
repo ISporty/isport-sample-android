@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         val isportData = ISportData.Builder()
             .token("eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxMyIsImV4cCI6MTY5Njk5MDkzNCwidXNlcklkIjoiMTMiLCJmdWxsTmFtZSI6IlllbiBCQSIsImF2YXRhclVybCI6IiJ9.M0oi_RdFjxSLQimX-S66aR4G1AoXIOkNHEzxA5T9uQKmsbSaeD2l0K6yEJqUXtRcEvNqKIsNfnCOdMkhYn3bStSic1M6x0sobDmjIZncq2Lgq296s5azHzWqv3DXn4swb10D_T-4-zcujaJr8pO0vK9A04zoZ637c8tB8vD5VQo")
-            .matchId("18535559")
+//            .matchId("18535559")
             .type(ISportData.ViewType.HOME).paramDeepLink("screen=fixture_detail&param=333")
             .env(ISportData.Environment.DEV)
             .build()
